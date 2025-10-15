@@ -8,4 +8,5 @@ Hari ini, Rabu 16 Oktober 2025, Saya belajar:
  <li>menggunakan file emmet.html pertemuan-02 untuk file index.html pertemuan-03</li>
  <li>membuat struktur form untuk section contact</li>
  <li>membuat styling untuk sektor ID #about </li>
+ <li>membuat styling untuk sektor ID #about elemen h2</li>
 <ol>

@@ -11,4 +11,5 @@ Hari ini, Rabu 16 Oktober 2025, Saya belajar:
  <li>membuat styling untuk sektor ID #about elemen h2</li>
  <li>membuat styling untuk sektor ID #about elemen p</li>
  <li>membuat styling untuk sektor ID #about elemen strong</li>
+ <li>membuat styling untuk sektor ID #about mode responsive (mobile)</li>
 <ol>

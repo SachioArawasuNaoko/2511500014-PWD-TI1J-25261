@@ -14,7 +14,7 @@
         }
 
 
-        #about, #contact {
+    #about, #contact {
             background-color: #f0f0f0;
             border-radius: 10px;
             padding: 20px;
@@ -23,7 +23,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        #about h2, #contact h2 {
+    #about h2, #contact h2 {
             color: #333;
             border-bottom: 2px solid #bd2f2f;
             padding-bottom: 6px;
@@ -31,7 +31,7 @@
             margin-bottom: 16px;
         }
 
-        #about p, #contact label{
+    #about p, #contact label{
             display: flex;
             justify-content: flex-start;
             align-items: baseline;
@@ -40,7 +40,7 @@
             border-bottom: 1px solid #b11d1d;
 
         }
-        #about strong, #contact label > span{
+    #about strong, #contact label > span{
             min-width: 180px;
             color: #b11d1d;
             font-weight: 600;
@@ -49,9 +49,9 @@
             flex-shrink: 0;
         }
 
-        #contact input, #contact textarea {
+    #contact input, #contact textarea {
             flex: 1;
-            border: 1px solid #ccc;
+            border: 1px solid #cf2828;
             border-radius: 6px;
             padding: 8px;
             font-size: 14px;
@@ -59,9 +59,9 @@
             color: #000;
         }
         
-        #contact button {
+    #contact button {
             background-color: #b11d1d;
-            color: white;
+            color: rgb(235, 37, 37);
             border: none;
             padding: 10px 24px;
             margin-top: 10px;
@@ -72,9 +72,9 @@
             transition: all 0.3s ease;
         }
 
-        #contact button[type="submit"] {
+    #contact button[type="submit"] {
       background-color: #84eb24;
-      color: #fff;
+      color: #d13232;
       font-weight: 600;
     }
 
@@ -84,14 +84,14 @@
       font-weight: 500;
     }
 
-     #contact button[type="submit"]:hover {
+    #contact button[type="submit"]:hover {
       background-color: #e62301;
       transform: translateY(-1px);
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     }
 
     #contact button[type="reset"]:hover {
-      background-color: #cccccc;
+      background-color: #e91919;
       transform: translateY(-1px);
     }
 
@@ -130,7 +130,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #cc1919;
 }
 
     </style>
@@ -165,20 +165,23 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action="" method="get">
-                <label for="txtNama">Nama:</label>
-                <span>Nama:</span>
-                <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-               
-                <label for="txtEmail">Email</label>
-                <span>Email:</span>
-                <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-               
-                <label for="txtPesan">Pesan:</label>
-                <span>Pesan Anda:</span>
-                <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+                <label for="txtNama">
+                 <span> Nama:</span>
+                 <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+                </label>
 
-                <button type="submit">Kirim</button>
-                <button type="reset">batal</button>
+                <label for="txtEmail">
+                 <span> Email:</span>
+                 <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+                </label>
+
+                <label for="txtPesan">
+                 <span> Pesan Anda:</span>
+                 <textarea name="txtPesan" id="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+                </label>
+
+                <button type="submit"> Kirim</button>
+                <button type="reset"> Batal</button>
             </form>
         </section>
     </main>

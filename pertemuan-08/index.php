@@ -95,10 +95,12 @@ endif;
       <label for="Nama Orang Tua"><span>Nama Orang Tua : </span>
           <input type="text" id="NamaOrangTua" name="NamaOrangTua" placeholder="Masukan Nama Orang Tua" required autocomplete="Nama Orang Tua">
         </label>
-      <label for="Nama"><span>Nama : </span>
-          <input type="text" id="Nama" name="Nama" placeholder="Masukan Nama" required autocomplete="Nama">
+      <label for="Nama Kakak"><span>Nama Kakak : </span>
+          <input type="text" id="NamaKakak" name="NamaKakak" placeholder="Masukan Nama Kakak" required autocomplete="Nama Kakak">
         </label>
-      
+      <label for="Nama Adik"><span>Nama Adik : </span>
+          <input type="text" id="NamaAdik" name="NamaAdik" placeholder="Masukan Nama Adik" required autocomplete="Nama Adik">
+        </label>
     </section>
 
     <section id="contact">

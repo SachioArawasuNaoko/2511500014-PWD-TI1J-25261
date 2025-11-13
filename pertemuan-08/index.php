@@ -81,13 +81,23 @@ endif;
           <input type="text" id="TempatLahir" name="TempatLahir" placeholder="Masukan Tempat Lahir" required autocomplete="">
         </label>
       <label for="Tanggal lahir"><span>Tanggal Lahir : </span>
-          <input type="text" id="TanggalLahir" name="TanggalLahir" placeholder="Masukan Tanggal Lahir" required autocomplete="bday">
+          <input type="text" id="TanggalLahir" name="TanggalLahir" placeholder="Masukan Tanggal Lahir" required autocomplete="Tanggal Lahir">
         </label>
       <label for="Hobi"><span>Hobi : </span>
-          <input type="text" id="Hobi" name="Hobi" placeholder="Masukan Hobi" required autocomplete="Hobbi">
+          <input type="text" id="Hobi" name="Hobi" placeholder="Masukan Hobi" required autocomplete="Hobi">
         </label>
       <label for="Pasangan"><span>Pasangan : </span>
-          <input type="text" id="Pasangan" name="Pasangan" placeholder="Masukan Pasangan" required autocomplete="">
+          <input type="text" id="Pasangan" name="Pasangan" placeholder="Masukan Pasangan" required autocomplete="pasangan">
+        </label>
+      <label for="Pekerjaan"><span>Pekerjaan : </span>
+          <input type="text" id="Pekerjaan" name="Pekerjaan" placeholder="Masukan Pekerjaan" required autocomplete="Pekerjaan">
+        </label>
+      <label for="Nama Orang Tua"><span>Nama Orang Tua : </span>
+          <input type="text" id="NamaOrangTua" name="NamaOrangTua" placeholder="Masukan Nama Orang Tua" required autocomplete="Nama Orang Tua">
+        </label>
+      <label for="Nama"><span>Nama : </span>
+          <input type="text" id="Nama" name="Nama" placeholder="Masukan Nama" required autocomplete="Nama">
+        </label>
       
     </section>
 

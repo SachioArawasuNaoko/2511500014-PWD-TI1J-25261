@@ -71,34 +71,34 @@ endif;
         echo $Nama;
         ?> &#128526;
       </p>
-      <label for="NIM"><span>NIM : </span>
+      <label for="NIM"><span>NIM : </span><br>
           <input type="text" id="NIM" name="NIM" placeholder="Masukan NIM" required autocomplete="NIM">
         </label>
-      <label for="Nama"><span>Nama : </span>
+      <label for="Nama"><span>Nama : </span><br>
           <input type="text" id="Nama" name="Nama" placeholder="Masukan Nama" required autocomplete="Nama">
         </label>
-      <label for="Tempat lahir"><span>Tempat Lahir : </span>
+      <label for="Tempat lahir"><span>Tempat Lahir : </span><br>
           <input type="text" id="TempatLahir" name="TempatLahir" placeholder="Masukan Tempat Lahir" required autocomplete="">
         </label>
-      <label for="Tanggal lahir"><span>Tanggal Lahir : </span>
+      <label for="Tanggal lahir"><span>Tanggal Lahir : </span><br>
           <input type="text" id="TanggalLahir" name="TanggalLahir" placeholder="Masukan Tanggal Lahir" required autocomplete="Tanggal Lahir">
         </label>
-      <label for="Hobi"><span>Hobi : </span>
+      <label for="Hobi"><span>Hobi : </span><br>
           <input type="text" id="Hobi" name="Hobi" placeholder="Masukan Hobi" required autocomplete="Hobi">
         </label>
-      <label for="Pasangan"><span>Pasangan : </span>
+      <label for="Pasangan"><span>Pasangan : </span><br>
           <input type="text" id="Pasangan" name="Pasangan" placeholder="Masukan Pasangan" required autocomplete="pasangan">
         </label>
-      <label for="Pekerjaan"><span>Pekerjaan : </span>
+      <label for="Pekerjaan"><span>Pekerjaan : </span><br>
           <input type="text" id="Pekerjaan" name="Pekerjaan" placeholder="Masukan Pekerjaan" required autocomplete="Pekerjaan">
         </label>
-      <label for="Nama Orang Tua"><span>Nama Orang Tua : </span>
+      <label for="Nama Orang Tua"><span>Nama Orang Tua : </span><br>
           <input type="text" id="NamaOrangTua" name="NamaOrangTua" placeholder="Masukan Nama Orang Tua" required autocomplete="Nama Orang Tua">
         </label>
-      <label for="Nama Kakak"><span>Nama Kakak : </span>
+      <label for="Nama Kakak"><span>Nama Kakak : </span><br>
           <input type="text" id="NamaKakak" name="NamaKakak" placeholder="Masukan Nama Kakak" required autocomplete="Nama Kakak">
         </label>
-      <label for="Nama Adik"><span>Nama Adik : </span>
+      <label for="Nama Adik"><span>Nama Adik : </span><br>
           <input type="text" id="NamaAdik" name="NamaAdik" placeholder="Masukan Nama Adik" required autocomplete="Nama Adik">
         </label>
     </section>
@@ -139,7 +139,7 @@ endif;
   </main>
 
   <footer>
-    <p>&copy; 2024 Sachio Arawasu Naoko [2511500014]</p>
+    <p>&copy; 2025 Sachio Arawasu Naoko [2511500014]</p>
   </footer>
 
   <script src="script.js"></script>

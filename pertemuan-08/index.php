@@ -54,11 +54,11 @@ endif;
 
     <section id="about">
       <?php
-      $nim = 2511500010;
-      $NIM = '0344300002';
-      $nama = "Say'yid Abdullah";
-      $Nama = 'Al\'kautar Benyamin';
-      $tempat = "Jebus";
+      $nim = 2511500014;
+      $NIM = '2511500014';
+      $nama = "Sachio Arawasu Naoko";
+      $Nama = 'Sachio Arawasu Naoko';
+      $tempat = "Pangkalpinang";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -74,6 +74,20 @@ endif;
       <label for="NIM"><span>NIM : </span>
           <input type="text" id="NIM" name="NIM" placeholder="Masukan NIM" required autocomplete="NIM">
         </label>
+      <label for="Nama"><span>Nama : </span>
+          <input type="text" id="Nama" name="Nama" placeholder="Masukan Nama" required autocomplete="Nama">
+        </label>
+      <label for="Tempat lahir"><span>Tempat Lahir : </span>
+          <input type="text" id="TempatLahir" name="TempatLahir" placeholder="Masukan Tempat Lahir" required autocomplete="">
+        </label>
+      <label for="Tanggal lahir"><span>Tanggal Lahir : </span>
+          <input type="text" id="TanggalLahir" name="TanggalLahir" placeholder="Masukan Tanggal Lahir" required autocomplete="bday">
+        </label>
+      <label for="Hobi"><span>Hobi : </span>
+          <input type="text" id="Hobi" name="Hobi" placeholder="Masukan Hobi" required autocomplete="Hobbi">
+        </label>
+      <label for="Pasangan"><span>Pasangan : </span>
+          <input type="text" id="Pasangan" name="Pasangan" placeholder="Masukan Pasangan" required autocomplete="">
       
     </section>
 
@@ -113,7 +127,7 @@ endif;
   </main>
 
   <footer>
-    <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
+    <p>&copy; 2024 Sachio Arawasu Naoko [2511500014]</p>
   </footer>
 
   <script src="script.js"></script>

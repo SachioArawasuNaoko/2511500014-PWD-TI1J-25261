@@ -106,8 +106,14 @@ endif;
 
     $fieldconfig = [
       "nim" => ["label" => "NIM:", "suffix" => ""],
-      "nama" => ["label" =>]
+      "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
+      "tempat" => ["label" => "Tempat Lahir", "suffix" => ""],
+      "tanggal" => ["label" => "Tanggal Lahir", "suffix" => ""],
+      "hobi" => ["label" => "Hobi", "suffix" => ""],
+      "pasangan" => ["label" "pasangan" = "Pasangan", "suffix" => ""]
+      "pekerjaan" => ["label"]
     ]
+    
     <section id="about">
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong> <?= $txtNim ?></p>

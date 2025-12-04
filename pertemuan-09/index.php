@@ -16,6 +16,55 @@ if (isset($_SESSION["sespesan"])):
   $sespesan = $_SESSION["sespesan"];
 endif;
 
+$txtNim = "";
+if (isset($_SESSION["txtNim"])):
+  $txtNim = $_SESSION["txtNim"];
+endif;
+
+$txtNmLengkap = "";
+if (isset($_SESSION["txtNmLengkap"])):
+  $txtNmLengkap = $_SESSION["txtNmLengkap"];
+endif;
+
+$txtT4Lhr = "";
+if (isset($_SESSION["txtT4Lhr"])):
+  $txtT4Lhr = $_SESSION["txtT4Lhr"];
+endif;
+
+$txtTglLhr = "";
+if (isset($_SESSION["txtTglLhr"])):
+  $txtTglLhr = $_SESSION["txtTglLhr"];
+endif;
+
+$txtHobi = "";
+if (isset($_SESSION["txtHobi"])):
+  $txtHobi = $_SESSION["txtHobi"];
+endif;
+
+$txtPasangan = "";
+if (isset($_SESSION["txtPasangan"])):
+  $txtPasangan = $_SESSION["txtPasangan"];
+endif;
+
+$txtKerja = "";
+if (isset($_SESSION["txtKerja"])):
+  $txtKerja = $_SESSION["txtKerja"];
+endif;
+
+$txtNmOrtu = "";
+if (isset($_SESSION["txtNmOrtu"])):
+  $txtNmOrtu = $_SESSION["txtNmOrtu"];
+endif;
+
+$txtNmKakak = "";
+if (isset($_SESSION["txtNmKakak"])):
+  $txtNmKakak = $_SESSION["txtNmKakak"];
+endif;
+
+$txtNmAdik = "";
+if (isset($_SESSION["txtNmAdik"])):
+  $txtNmAdik = $_SESSION["txtNmAdik"];
+endif;
 ?>
 
 <!DOCTYPE html>
@@ -52,6 +101,7 @@ endif;
       ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
+
     <section id="biodata">
       <h2>Biodata Sederhana Mahasiswa</h2>
       <form action="proses.php" method="POST">
@@ -99,21 +149,9 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+
     </section>
 
-    <?php
-    $biodata = $_SESSION["biodata"] ?? [];
-
-    $fieldconfig = [
-      "nim" => ["label" => "NIM:", "suffix" => ""],
-      "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
-      "tempat" => ["label" => "Tempat Lahir", "suffix" => ""],
-      "tanggal" => ["label" => "Tanggal Lahir", "suffix" => ""],
-      "hobi" => ["label" => "Hobi", "suffix" => ""],
-      "pasangan" => ["label" "pasangan" = "Pasangan", "suffix" => ""]
-      "pekerjaan" => ["label"]
-    ]
-    
     <section id="about">
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong> <?= $txtNim ?></p>

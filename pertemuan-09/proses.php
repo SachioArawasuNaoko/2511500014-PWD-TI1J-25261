@@ -7,7 +7,7 @@ $_SESSION["sesnama"] = $sesnama;
 $_SESSION["sesemail"] = $sesemail;
 $_SESSION["sespesan"] = $sespesan;
 
-$arrBiodata = [
+$arrbiodata = [
 "nim" => $_POST["txtNim"] ?? "",
 "nama" => $_POST["txtNmLengkap"] ?? "",
 "tempat" => $_POST["txtT4Lhr"] ?? "",

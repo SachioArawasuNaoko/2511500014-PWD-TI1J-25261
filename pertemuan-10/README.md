@@ -13,7 +13,7 @@
   <li>echo session ke nilai label section contact selesai</li>
   <li>Mengubah data post ke array associative pada proses.php</li>
   <li>membuat database</li>
-  
+  <li>membuat tbl_tamu di phpMyAdmin</li>
 
 
 </ol>

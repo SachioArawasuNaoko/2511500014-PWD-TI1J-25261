@@ -14,6 +14,7 @@
   <li>Mengubah data post ke array associative pada proses.php</li>
   <li>membuat database</li>
   <li>membuat tbl_tamu di phpMyAdmin</li>
+  <li>menambahkan teks area pada read.php</li>
 
 
 </ol>

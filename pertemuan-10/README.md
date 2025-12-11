@@ -15,6 +15,9 @@
   <li>membuat database</li>
   <li>membuat tbl_tamu di phpMyAdmin</li>
   <li>menambahkan teks area pada read.php</li>
+  <li>merubah bagian data tamu pada bagian read_inc.php</li>
+  <li>mengubah kode pada bagian index.php</li>
+
 
 
 </ol>
